@@ -1,0 +1,146 @@
+body {
+    background: #000000;
+    color: #ffffff;
+}
+
+#left {
+    width: 35%;
+    float: left;
+}
+
+.inputPesquisa {
+    color: white;
+    background: #000000;
+    width: 150px;
+    border: none;
+    padding: 7px;
+    margin-left:-40px;
+  }
+
+.botaoPesquisa {
+    display: flex;
+    background: gray;
+    color: #ffffff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 100%;
+}
+
+.divPesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#MagnifyingGlass{
+    color: white;
+    margin: auto;
+}
+
+#right {
+    width: 65%;
+    float: left;
+}
+
+.col-2 {
+    width: 50%;
+    float: left;
+}
+
+#center {
+    margin-left: 30%;
+}
+
+.softsteak {
+    width: 90%;
+    float: left;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#pesquisa {
+    padding: 10px;
+    border: solid 3px;
+    border-color: #ffffff;
+    border-radius: 25px;
+    width: 200px;
+    color: gray;
+    text-align: center;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.botaoItemPaginaInicial {
+    display: flex;
+    background: #686868;
+    color: #ffffff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 75%;
+    max-width: 440px;
+    max-height: 165px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 8%;
+}
+
+.dropdownPesquisaCategoriaItem {
+    outline: none;
+}
+
+.estruturaBotoesPaginaInicial {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 1rem;
+
+}
+
+.prato {
+    border-radius: 25px;
+    background: gray;
+    width: 29%;
+    height: 110px;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+}
+
+.imgPrato {
+    width: 50%;
+    float: left;
+    margin-right: 5px;
+}
+
+.img {
+    width: 100%;
+}
+
+.conteudo {
+    width: 45%;
+    margin-top: -15px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    width: 50%;
+}
+
+.singIn {
+    float: right;
+    width: 50%;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
